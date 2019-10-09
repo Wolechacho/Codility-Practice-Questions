@@ -18,6 +18,13 @@ namespace CodilityPractice
             var unpaired = OddOccurencesInArray.Solution(new int[] { 3, 4, 3, 4, 5, 3, 3, 5, 6, 7, 9, 9, 7 ,14,90,32,6,14,32,90,89});
             Console.WriteLine($"The value of unpaired element : {unpaired}");
 
+            //CyclicRotation implementation
+            var arr = CyclicRotation.Solution(new int[] { 3, 8, 9, 7, 6 }, 3);
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write("{0},",arr[i]);
+            }
+
             Console.ReadLine();
         }
     }
