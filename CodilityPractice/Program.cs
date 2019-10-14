@@ -38,16 +38,25 @@ namespace CodilityPractice
             //Console.WriteLine("Minimum Value : {0}",tpe);
 
 
-            var X1 = 5;
-            int[] arr1 = { 1, 5, 1, 4, 2, 9, 3, 4 };
-            var X2 = 8;
-            int[] arr2 = { 3, 2, 6, 4, 8 };
-            var X3 = 5;
-            int[] arr3 = { 1, 2, 3, 4 };
+            //var X1 = 5;
+            //int[] arr1 = { 1, 5, 1, 4, 2, 9, 3, 4 };
+            //var X2 = 8;
+            //int[] arr2 = { 3, 2, 6, 4, 8 };
+            //var X3 = 5;
+            //int[] arr3 = { 1, 2, 3, 4 };
 
-            Console.WriteLine(solution(X1, arr1));
-            Console.WriteLine(solution(X2, arr2));
-            Console.WriteLine(solution(X3, arr3));
+            //Console.WriteLine(FrogRiverOne.Solution(X1, arr1));
+            //Console.WriteLine(FrogRiverOne.Solution(X2, arr2));
+            //Console.WriteLine(FrogRiverOne.Solution(X3, arr3));
+
+
+            //MissingInteger implementation
+            
+            var result = MissingInteger.Solution(new int[] { 1, 3, 6, 4, 1, 2 ,5});
+            //var result = MissingInteger.Solution(new int[] { -1,-2 ,-3,1 });
+            //var result = MissingInteger.Solution(new int[] { 1, 2, 3 });
+
+            Console.WriteLine("The Smallest Positive Integer : {0}",result);
 
             Console.ReadLine();
         }
