@@ -51,12 +51,16 @@ namespace CodilityPractice
 
 
             //MissingInteger implementation
-            
-            var result = MissingInteger.Solution(new int[] { 1, 3, 6, 4, 1, 2 ,5});
+
+            //var result = MissingInteger.Solution(new int[] { 1, 3, 6, 4, 1, 2 ,5});
             //var result = MissingInteger.Solution(new int[] { -1,-2 ,-3,1 });
             //var result = MissingInteger.Solution(new int[] { 1, 2, 3 });
 
-            Console.WriteLine("The Smallest Positive Integer : {0}",result);
+            //Console.WriteLine("The Smallest Positive Integer : {0}",result);
+
+            var pairedcars = PassingCars.Solution(new int[] { 0, 1, 0,1,1,0,1,1,0,1,0,1,0,1,1,1,1,0 });
+            Console.WriteLine("The number of paired cars is : {0}", pairedcars);
+
 
             Console.ReadLine();
         }

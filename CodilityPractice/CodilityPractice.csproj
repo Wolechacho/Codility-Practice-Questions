@@ -49,6 +49,7 @@
     <Compile Include="FrogRiverOne.cs" />
     <Compile Include="MissingInteger.cs" />
     <Compile Include="OddOccurencesInArray.cs" />
+    <Compile Include="PassingCars.cs" />
     <Compile Include="PermMissingElem.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
