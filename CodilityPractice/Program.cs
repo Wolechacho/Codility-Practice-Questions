@@ -58,8 +58,17 @@ namespace CodilityPractice
 
             //Console.WriteLine("The Smallest Positive Integer : {0}",result);
 
-            var pairedcars = PassingCars.Solution(new int[] { 0, 1, 0,1,1,0,1,1,0,1,0,1,0,1,1,1,1,0 });
-            Console.WriteLine("The number of paired cars is : {0}", pairedcars);
+            //var pairedcars = PassingCars.Solution(new int[] { 0, 1, 0,1,1,0,1,1,0,1,0,1,0,1,1,1,1,0 });
+            //Console.WriteLine("The number of paired cars is : {0}", pairedcars);
+
+
+            var queries = GenomicRangeQuery.Solution("CAGCCTAAC",new int[] { 2, 5, 0 }, new int[] { 4, 5, 6 });
+            Console.Write("[");
+            foreach (var q in queries)
+            {
+                Console.Write(" {0}",q);
+            }
+            Console.Write(" ]");
 
 
             Console.ReadLine();
